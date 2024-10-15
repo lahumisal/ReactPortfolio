@@ -1,21 +1,20 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiMysql,
   DiJava,
+  DiJavascript1,
+  DiMysql,
+  DiReact,
 } from "react-icons/di";
 import {
-  SiSpring,
-  SiSpringboot,
   SiC,
   SiHibernate,
-  SiLombok,
+  SiSpring,
+  SiSpringboot,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
+import { CgCPlusPlus } from "react-icons/cg";
 import { FaFileAlt } from 'react-icons/fa';
+import React from "react";
 
 function Techstack() {
   return (
@@ -24,7 +23,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiC  />
       </Col>
-      
+
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
