@@ -29,7 +29,7 @@ function Projects() {
               user-friendly format. This project demonstrates skills in handling dynamic content, time calculations, and responsive design, making it a perfect example 
               of practical time-keeping technology. Additional features may include customizable themes, alarms, or time zone settings."
               ghLink="https://github.com/lahumisal/Digital_Clock"
-              demoLink="https://anew-dig-clock.netlify.app/"
+              demoLink="https://resposive-dig-clock.netlify.app/"
             />
           </Col>
 
