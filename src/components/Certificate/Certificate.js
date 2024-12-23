@@ -9,6 +9,7 @@ import OOps from "../../Assets/Projects/OOPs_in_Java.jpg";
 import Particle from "../Particle";
 import React from "react";
 import Servlet_JSP from "../../Assets/Projects/Servlet_JSP.jpg";
+import SoftwareDevelopment from "../../Assets/Projects/Software_Development.jpg";
 import SpringBoot from "../../Assets/Projects/SpringBoot.jpg";
 import SpringFramework from "../../Assets/Projects/Spring_Framework.jpg";
 
@@ -24,6 +25,14 @@ function Certificate() {
           Here are some certifications I've earned.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="certification-card">
+            <CertificateCard
+              imgPath={SoftwareDevelopment}
+              title="Software Development"
+            />
+          </Col>
+
           <Col md={4} className="certification-card">
             <CertificateCard
               imgPath={OOps}
