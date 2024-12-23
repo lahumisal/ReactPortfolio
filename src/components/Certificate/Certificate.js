@@ -76,7 +76,7 @@ function Certificate() {
           <Col md={4} className="certification-card">
             <CertificateCard
               imgPath={GitHub}
-              title="Basic GitHib"
+              title="Basic GitHub"
             />
           </Col>
           
